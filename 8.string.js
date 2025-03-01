@@ -25,3 +25,28 @@ console.log(department.trim());
 const headOfDept = 'Sabuj Ahmed';
 console.log(headOfDept);
 console.log(headOfDept.trim());
+
+// Slice of a string
+const kothinCourse = 'MATHEMATICS';
+const courseShortName = kothinCourse.slice(0,4); // slice(a,b) a=ei index theke suru, b=ei index er ager index e sesh
+console.log(courseShortName);
+
+// Split and join
+const names = 'Adib, Sdib, Ddib, Fdib, Jdib';
+console.log(names);
+const namesArray = names.split(', ') // splitted before and after ',';
+console.log(namesArray); // created an array with the splitted elements
+console.log(namesArray.join('-')); // joined the array elements with '-'
+
+// Concatination
+const firstName = 'Adib';
+const lastName = 'Chowdhury';
+const fullName = firstName + ' ' + lastName;
+console.log(fullName);
+// includes?
+console.log(firstName.includes('x'));
+
+// Reverse a string 
+let phyInstructor = 'Dr. Md. Tarek Hossain';
+let reversePhyInstructor = phyInstructor.split('').reverse().join('');
+console.log(reversePhyInstructor);

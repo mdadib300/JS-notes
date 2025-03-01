@@ -1,5 +1,5 @@
 // 'var' is used for the old browsers
-var name = 'adib'; 
+var name = 'adib';
 
 // 'let' and 'const' are usually used in current browsers 
 // if the value is not constant, then we have to use 'let'

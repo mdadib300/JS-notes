@@ -42,3 +42,41 @@ const eitaArrayNa = 1;
 console.log(Array.isArray(eitaArray))
 console.log(Array.isArray(eitaArrayNa))
 
+// Array looping
+const friendss = ['Adib', 'Elon', 'Mark', 'Bill'];
+// using for-of loop
+for(friend of friendss){
+    console.log(friend);
+}
+
+// using for loop
+for(i=0;i<friends.length;i++){
+    console.log(friends[i]);
+}
+
+// reverse an array with 'reverse()'
+const numberss = [1,2,3,4,5];
+const numbers_rev = numberss.reverse();
+console.log(numbers_rev);
+
+// reverse an array with for-of loop
+const nums = [4,5,6,7,8];
+const nums_rev = [];
+for(num of nums){
+    nums_rev.unshift(num);
+}
+console.log(nums_rev);
+
+// reverse an array with for loop
+const ns = [3,4,5];
+const ns_rev = [];
+for(i=0; i<ns.length; i++){
+    ns_rev.unshift(ns[i])
+}
+console.log(ns_rev);
+
+// Sort (It has some issues, so it doesn't work properly)
+const goribs = ['Akib', 'sakib', 'Nakib', 'Zhakib', 'akibbb'];
+console.log(goribs.sort()); // it works based on the ASCII codes
+
+
